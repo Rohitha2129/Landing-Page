@@ -1,0 +1,132 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.hero {
+    background-image:url(https://tse3.mm.bing.net/th?id=OIP.3CP6nprfM-WueuBBk9vmHQHaE8&pid=Api&P=0&h=180);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: #fff;
+    padding: 250px 5px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.hero h6 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: right;
+}
+
+header {
+    background-color:whitesmoke;
+    color:black;
+    padding: 10px 0;
+    height: 10%;
+}
+header h1 {
+    font-size: 36px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #3344ff;
+}
+.products {
+    text-align:center;
+    column-count:1;
+    column-gap:10px;
+    padding: 60px 0;
+   
+    
+}
+.product {
+    margin-bottom: 40px;
+    width:50%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.product img {
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+}
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.products .container ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: #ff5733;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3366ff;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4022;
+}
+
+
+
+
+
+
+
